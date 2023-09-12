@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Euphoria+Script&family=Playfair+Display:ital@1&family=Quicksand:wght@700&display=swap');
+
+body {
+    background-color: #2c2b30;
+}
+.name {
+    color: #f58f7c;
+    font-size: xx-large;
+    font-family: "Euphoria Script", sans-serif;
+}
+h1{
+    font-family: Playfair Display, sans-serif;
+    font-size: 200%;
+    color: #d6d6d6;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    font-family: Playfair Display, sans-serif;
+    font-size: medium;
+    color: #d6d6d6;
+    text-align: center;
+}
+
+h3{
+    font-family: Euphoria Script, sans-serif;
+    font-size: 200%;
+    color: #d6d6d6;
+    text-align: center;
+    box-sizing: auto;
+}
+
+# {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #4f4f51;
+}
+
+li, a, button {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f58f7c;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+.links {
+    cursor: pointer;
+}
+
+.links li {
+    display: inline-block;
+    padding 0px 20px;
+    margin-right: 10px;
+}
+
+.links li a {
+    transition: all .3s ease 0s;
+}
+
+.links li a:hover {
+    color: whitesmoke;
+}
+
+
