@@ -77,10 +77,8 @@ header {
 
 img{
     max-width: 225px;
+    max-height: fit-content;
     float: left;
-    padding-bottom: 4px;
-    justify-content: space-between;
-    display: inline-block;
 }
 
 
@@ -101,16 +99,15 @@ h4 {
 }
 
 .text p {
+    display: grid;
     color: #2c2b30;
-    font-size: 30px;
+    font-size: 22px;
     font-family: Playfair Display, sans-serif;
+    grid gap: 0.2rem;
 }
 
-.container {
-    width: 100%;
-    height: 100vh;
-    background-color: #3c5077;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.img2{
+    max-width: 238px;
+    max-height: fit-content;
+    float: left;
 }
